@@ -64,7 +64,7 @@ frc2::Command* RobotContainer::GetAutonomousCommand() {
       frc::Pose2d{0_m, 0_m, 0_deg},
       // Pass through these two interior waypoints, making an 's' curve path
       {frc::Translation2d{0.2_m, 0.2_m}, frc::Translation2d{0.4_m, -0.2_m}},
-      // End 3 meters straight ahead of where we started, facing forward
+      // End 0.6 meters straight ahead of where we started, facing forward
       frc::Pose2d{0.6_m, 0_m, 0_deg},
       // Pass the config
       config);
